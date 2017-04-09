@@ -20,3 +20,7 @@ print(np.column_stack((d,e)))
 f = np.r_[1:4, 0,1,8,9, 4]
 print(f)
 # [1 2 3 0 1 8 9 4]
+g = np.c_[np.array([[1,2,3]]), 0, 0, np.array([[4,5,6]])]
+print(g)
+# [[1 2 3 0 0 4 5 6]]
+
